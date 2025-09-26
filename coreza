@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sub-Brand Landing Page</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background: #f4f4f9;
+        color: #333;
+    }
+    header {
+        background-color: #0B5394;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 28px;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+    .hero {
+        background: linear-gradient(135deg, #1155CC, #0B5394);
+        color: white;
+        text-align: center;
+        padding: 80px 20px;
+    }
+    .hero h2 {
+        font-size: 36px;
+        margin: 0 0 20px 0;
+    }
+    .hero p {
+        font-size: 18px;
+    }
+    .section {
+        padding: 60px 20px;
+        text-align: center;
+    }
+    .section h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #0B5394;
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        width: 250px;
+        padding: 20px;
+        transition: transform 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .card img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .card h4 {
+        margin: 15px 0 10px 0;
+        color: #1155CC;
+    }
+    footer {
+        background: #0B5394;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Sub-Brand Name</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Our Sub-Brand</h2>
+    <p>Creating vibes, products & experiences that stand out.</p>
+</section>
+
+<section class="section" id="about">
+    <h3>About Our Brand</h3>
+    <p>Our sub-brand focuses on marketing & social media, with dedicated team to ensure smooth operations and creative content.</p>
+</section>
+
+<section class="section" id="products">
+    <h3>Our Products / Lines</h3>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Product 1">
+            <h4>Product Line 1</h4>
+            <p>High quality, stylish and trendy.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Product 2">
+            <h4>Product Line 2</h4>
+            <p>Modern, functional and unique.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Product 3">
+            <h4>Product Line 3</h4>
+            <p>Creative, innovative and bold.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h3>Contact Us</h3>
+    <p>Email: info@subbrand.com | Phone: +60 12-3456789</p>
+</section>
+
+<footer>
+    &copy; 2025 Sub-Brand Name. All rights reserved.
+</footer>
+
+</body>
+</html>
